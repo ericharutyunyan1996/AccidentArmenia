@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "668464282823",
+    "firebase_url": "https://accident-880f7.firebaseio.com",
+    "project_id": "accident-880f7",
+    "storage_bucket": "accident-880f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668464282823:android:f64ab788c38f1d57",
+        "android_client_info": {
+          "package_name": "com.example.mrero.accident"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668464282823-mo7l0c9rcchf4mo8qlvfb0nt6puhesis.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mrero.accident",
+            "certificate_hash": "b246f0a60d6f825faa2cc066909e96c0bb960efa"
+          }
+        },
+        {
+          "client_id": "668464282823-din763mfcp7ejj05f3khq8fgn8jg9sha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzzF3Z5MnxvlZgrAk0LXE-wS2vaezucb8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668464282823-din763mfcp7ejj05f3khq8fgn8jg9sha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

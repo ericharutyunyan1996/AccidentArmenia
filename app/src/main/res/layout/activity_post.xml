@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_post"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mrero.accident.PostActivity">
+
+    <ImageButton
+        android:layout_gravity="center"
+        android:id="@+id/imageSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:background="#00ffffff"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/add_btn" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/titleField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_outline"
+        android:backgroundTint="#EEEEEE"
+        android:hint="Post Title"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:padding="15dp" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/descField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_outline"
+        android:backgroundTint="#EEEEEE"
+        android:ems="10"
+        android:hint="Post Description"
+        android:inputType="textMultiLine"
+        android:maxLength="100"
+        android:maxLines="2"
+        android:padding="15dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:text="Map point"
+        android:id="@+id/mapPoint"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="54dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_gravity="center"
+        android:id="@+id/submitBtn"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="250dp"
+        android:layout_height="54dp"
+        android:text="@string/submit"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
